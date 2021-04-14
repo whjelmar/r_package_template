@@ -8,7 +8,7 @@ find . -path ./.git -prune -o -type f -exec sed -i 's/<<package_name>>/$package_
 find . -path ./.git -prune -o -type f -exec sed -i 's/<<package_title>>/$package_title/g' {} +
 
 git init
-git add README.md
+git add --all
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/whjelmar/$package_name.git
