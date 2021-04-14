@@ -1,15 +1,12 @@
 #!/bin/bash
 
-$package_name = "new_package"
-$package_title = "new title"
-$package_repo = "https://github.com/whjelmar/$package_name"
+read -p 'What would you like to name this new package? ' package_name
+read -p 'Can you give a 1 sentence description of the purpose for the package? ' package_title
 
-find . -path ./.git -prune -o -type f -exec sed -i 's/<<package_name>>/$package_name/g' {} +
-find . -path ./.git -prune -o -type f -exec sed -i 's/<<package_title>>/$package_title/g' {} +
+find . -path ./.git -prune -o -type f -exec sed -i "s/<<package_name>>/$package_name/g" {} +
+find . -path ./.git -prune -o -type f -exec sed -i "s/<<package_title>>/$package_title/g" {} +
 
-git init
 git add --all
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/whjelmar/$package_name.git
-git push -u origin main
+git commit -m "feat: replaced defaults in templates with package info"
+git push
+
