@@ -1,5 +1,5 @@
-Package: <<package_name>>
-Title: <<package_title>>
+Package: rolemapr
+Title: A package to produce roles and responsibility maps
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Walter",
