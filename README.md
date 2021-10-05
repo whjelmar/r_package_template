@@ -190,7 +190,7 @@ See [`FAQ.md`](https://github.com/whjelmar/<<package_name>>/FAQ.md)
 
 ### Lessions
 
-See [`FAQ.md`](https://github.com/whjelmar/<<package_name>>/LESSIONS.md)
+See [`LESSIONS.md`](https://github.com/whjelmar/<<package_name>>/LESSIONS.md)
 
 
 ## Roadmap
