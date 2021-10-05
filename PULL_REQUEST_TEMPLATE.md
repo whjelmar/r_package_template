@@ -1,4 +1,4 @@
-#### Pull Request for rolemapr
+#### Pull Request for <<package_name>>
 
 #### Types of change
 
