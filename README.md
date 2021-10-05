@@ -150,7 +150,7 @@ To deploy this project run
   
 ## Authors
 
-- [@katherinepeterson](https://www.github.com/whjelmar)
+- [@whjelmar](https://www.github.com/whjelmar)
 
   
 ## Contributing
