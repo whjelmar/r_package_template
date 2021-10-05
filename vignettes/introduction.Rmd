@@ -15,5 +15,5 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(rolemapr)
+library(<<package_name>>)
 ```
