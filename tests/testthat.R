@@ -1,4 +1,4 @@
 library(testthat)
-library(rolemapr)
+library(<<package_name>>)
 
-test_check("rolemapr")
+test_check("<<package_name>>")
