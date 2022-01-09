@@ -7,6 +7,7 @@ find . -path ./.git -prune -o -type f -exec sed -i "s/<<package_name>>/$package_
 find . -path ./.git -prune -o -type f -exec sed -i "s/<<package_title>>/$package_title/g" {} +
 
 git mv default_template_name.Rproj "$package_name.Rproj"
+git rm change_package_name.sh
 git add --all
 git commit -m "feat: replaced defaults in templates with package info"
 git push
