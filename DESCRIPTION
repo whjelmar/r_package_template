@@ -1,5 +1,5 @@
-Package: rolemapr
-Title: A package to produce roles and responsibility maps
+Package: __project_name__
+Title: __package_title__
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Walter",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "walter@hjelmar.com",
            comment = c(ORCID = "0000-0002-0625-2933"))
-Description: What the package does (one paragraph).
+Description: __package_description__
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
