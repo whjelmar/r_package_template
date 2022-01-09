@@ -24,6 +24,8 @@ library(knitr)
 
 <<project_title>>
 
+<<project_description>>
+
 
 ![Logo](https://github.com/whjelmar/<<package_name>>/logo.png)
 
