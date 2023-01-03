@@ -1,6 +1,6 @@
 # How to Contribute
 
-We're excited you're interested in contributing to <<package_name>>! We'd love your help.
+We're excited you're interested in contributing to rolemapr! We'd love your help.
 
 We welcome all levels of expertise from novice to experts.
 
@@ -18,9 +18,9 @@ Further, check the `Resources` section at the bottom of this page.
 
 There are plenty of ways to contribute:
 
-* Fix or [report](https://github.com/whjelmar/<<package_name>>/issues/new) a bug
+* Fix or [report](https://github.com/whjelmar/rolemapr/issues/new) a bug
 * Fix or improve documentation
-* Pick up a ["good first issue"](https://github.com/whjelmar/<<package_name>>labels/good%20first%20issue), then send a pull request our way
+* Pick up a ["good first issue"](https://github.com/whjelmar/rolemaprlabels/good%20first%20issue), then send a pull request our way
 
 We feel that a welcoming community is important and we ask that you follow the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md) in all interactions with the community.
 
@@ -45,14 +45,14 @@ TODO
 
 # Submitting a [Pull Request](https://help.github.com/articles/about-pull-requests)
 
-1. [Fork](https://github.com/whjelmar/<<package_name>>/fork) and clone the repository
+1. [Fork](https://github.com/whjelmar/rolemapr/fork) and clone the repository
 2. Make sure all tests pass locally: `./gradlew test`
 3. Create a new [branch](#branching): `git checkout -b feature/my-cool-new-feature`
 4. Make change on your cool new branch
 5. Write a test for your change
 6. Make sure source files are formatted: see Coding Style Guide above
 7. Make sure to [sign you work](#sign-your-work)
-8. Push change to your fork and [submit a pull request](https://github.com/whjelmar/<<package_name>>/compare)
+8. Push change to your fork and [submit a pull request](https://github.com/whjelmar/rolemapr/compare)
 9. Work with project maintainers to get your change reviewed and merged into the `main` branch
 10. Delete your branch
 
@@ -106,14 +106,14 @@ Git has a [`-s`](https://git-scm.com/docs/git-commit#Documentation/git-commit.tx
 $ git commit -s -m "This is my commit message"
 ```
 
-# API [Docs](https://github.com/whjelmar/<<package_name>>/tree/main/docs)
+# API [Docs](https://github.com/whjelmar/rolemapr/tree/main/docs)
 
 TODO 
 
 To bundle:
 
 ```bash
-$ redoc-cli bundle docs/openapi.yml -o docs/openapi.html  --title "<<package_name>> API Reference"
+$ redoc-cli bundle docs/openapi.yml -o docs/openapi.html  --title "rolemapr API Reference"
 ```
 
 To serve:  
